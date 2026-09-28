@@ -1,0 +1,10 @@
+{
+  "name": "harshit-plugins",
+  "owner": { "name": "Harshit Panchal" },
+  "metadata": {
+    "description": "Claude Code plugins by Harshit Panchal"
+  },
+  "plugins": [
+    { "name": "meeting-notes", "source": "./" }
+  ]
+}

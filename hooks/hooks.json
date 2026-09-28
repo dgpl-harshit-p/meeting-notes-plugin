@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh -c 'mkdir -p \"$CLAUDE_PLUGIN_DATA\"; if [ ! -d \"$CLAUDE_PLUGIN_ROOT/server/node_modules\" ]; then (cd \"$CLAUDE_PLUGIN_ROOT/server\" && npm install --omit=dev --no-audit --no-fund) > \"$CLAUDE_PLUGIN_DATA/install.log\" 2>&1 || true; fi'"
+          }
+        ]
+      }
+    ]
+  }
+}

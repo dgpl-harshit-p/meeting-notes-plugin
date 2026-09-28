@@ -1,0 +1,15 @@
+{
+  "name": "meeting-notes",
+  "displayName": "Meeting Notes",
+  "description": "Turn raw meeting notes into decisions, action items and open questions, and keep them in a searchable local store",
+  "version": "1.0.0",
+  "author": {
+    "name": "Harshit Panchal",
+    "email": "harshitpanchalcie16@gmail.com",
+    "url": "https://theharshitpanchal.com"
+  },
+  "homepage": "https://github.com/REPLACE_WITH_YOUR_GITHUB_USERNAME/meeting-notes-plugin",
+  "repository": "https://github.com/REPLACE_WITH_YOUR_GITHUB_USERNAME/meeting-notes-plugin",
+  "license": "MIT",
+  "keywords": ["meetings", "notes", "action-items", "productivity"]
+}
